@@ -44,3 +44,6 @@ global.window && gui.Window.get().minimize(); // minimizes the client's window
 var nwjsify = require('nwjs-browserify');
 nwjsify.attachShim();  // or specify with nwjsify.attachShim('_require'); 
 ```
+
+#Important
+- Remember to set the `node-remote` property for nwjs `package.json` (refer to [nwjs security](https://github.com/nwjs/nw.js/wiki/Security) for more information). Additionally, refer to the sample nwjs compatible [`package.json`](https://github.com/nwjs/nw.js/blob/2673b0b23ee9cf003a41248e67b23563c593c096/tests/automatic_tests/remote-img/imgnotshown/package.json).
