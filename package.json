@@ -1,0 +1,18 @@
+{
+  "name": "nwjs-browserify",
+  "version": "1.0.0",
+  "dependencies": {
+    "config": "^1.14.0",
+    "falafel": "^1.1.0",
+    "through2": "^2.0.0"
+  },
+  "description": "Browserify compatiblity for native apps",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": {
+    "name": "Mathew Kurian"
+  },
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "scripts": {}
+}
