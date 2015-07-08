@@ -6,7 +6,7 @@
     "falafel": "^1.1.0",
     "through2": "^2.0.0"
   },
-  "description": "Browserify compatiblity for native apps",
+  "description": "Browserify compatiblity for native apps powered by nwjs",
   "main": "index.js",
   "devDependencies": {},
   "author": {
