@@ -16,7 +16,7 @@ var getTransform = function (expose) {
                     node.parent &&
                     node.parent.arguments &&
                     node.parent.arguments.length) {
-                    node.update('window.require || function(){return {};}');
+                    node.update('(window.require || function(){return {};})');
                 }
             })));
             this.push(null);
