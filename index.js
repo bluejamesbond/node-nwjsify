@@ -1,7 +1,5 @@
 var through = require('through2');
 var falafel = require('falafel');
-var config = require('config'); // FIXME hard reload this each time in order to support `watchify`
-var util = require('util');
 
 var getTransform = function (expose) {
     return function (file, opts) {
